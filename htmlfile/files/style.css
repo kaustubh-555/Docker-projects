@@ -1,0 +1,62 @@
+*{
+    margin:none;
+    border:none;
+    padding:none;
+}
+.heading{
+    font-size: 2rem;
+    font-weight: bold;
+}
+body{
+    overflow: hidden;
+    line-height: 1.4rem;
+    margin:0;
+    padding:0;
+}
+.page{
+    height:100vh;
+    width:100%;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column; 
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+#page-1{
+    background-color:darkcyan;
+    color:white;
+}
+#page-2{
+    background-color:red;
+    color:black;
+}
+#page-3{
+    background-color:darkgoldenrod;
+    color:white;
+}
+#page-4{
+    background-color:aquamarine;
+    color:royalblue;
+}
+.content{
+    line-height: 2rem;
+    margin: 0px 0px 0px 10px 0px;
+}
+.btn{
+    padding:20px;
+    background-color: black;
+    color:white;
+    width:fit-content;
+    text-decoration: none;
+    margin: 20px 20px 0px 20px;
+}
+.page-2 .btn{
+    display: inline-block;
+}
+.btn:hover{
+    background-color: brown;
+}
+.btn:visited{
+    color:peru;
+} 
